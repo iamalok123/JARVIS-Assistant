@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>JARVIS Interface</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="scan-line"></div>
+    <div class="holo-grid"></div>
+    <div class="arc-reactor"></div>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="jarvis-icon">
+                <i class="fas fa-circle-nodes pulse"></i>
+            </div>
+            <div class="header-content">
+                <h1>JARVIS Interface</h1>
+                <div class="status">Online - Secure Connection</div>
+            </div>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Initial JARVIS greeting -->
+            <div class="message bot-message">
+                <div class="message-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="message-content">
+                    Welcome back, sir. How may I assist you today?
+                </div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Command JARVIS...">
+            <button id="send-button">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html> 
